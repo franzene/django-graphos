@@ -56,3 +56,13 @@ class TreeMapChart(BaseGChart):
 class AreaChart(BaseGChart):
     def get_js_template(self):
         return "graphos/gchart/area_chart.html"
+
+
+class ScatterChart(BaseGChart):
+    def get_js_template(self):
+        return "graphos/gchart/scatter_chart.html"
+
+
+class Histogram(BaseGChart):
+    def get_js_template(self):
+        return "graphos/gchart/histogram.html"
